@@ -8,7 +8,6 @@ public class Main {
         Hotel hotel = new Hotel();
         SimpleDateFormat formatoData = new SimpleDateFormat("dd/MM/yyyy");
 
-        // Exemplo de cadastro inicial de quartos
         hotel.cadastrarQuarto(101, "solteiro", 150.00, true);
         hotel.cadastrarQuarto(102, "casal", 200.00, true);
         hotel.cadastrarQuarto(103, "suite", 300.00, true);
